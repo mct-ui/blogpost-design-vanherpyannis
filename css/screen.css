@@ -1,4 +1,45 @@
 /*
+    Components: Author
+*/
+.c-author{
+    display: flex;
+    align-items: center;
+}
+
+.c-author__image{
+    width: 56px;
+    height: 56px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.c-author__name,
+.c-author__meta{
+    margin-bottom: 0;
+}
+
+.c-author__meta{
+    font-size: 14px
+    line-height: 24px;
+    font-family: "Inter Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.c-author__meta{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.c-author__image{
+    width: 56px;
+    height: 56px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    margin-right: 16px;
+}
+
+/*
     Fonts
     ---
     @font-face declarations
